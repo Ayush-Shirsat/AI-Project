@@ -99,15 +99,6 @@ Y_data3 = Y_data3[6000:len(Y_data3)]
 X_train /= 255
 X_val /= 255
 
-
-#Y_train0 = Y_train[:,0]
-#Y_train1 = to_categorical(Y_train[:,1])
-#Y_test0 = Y_test[:,0]
-#Y_test1 = to_categorical(Y_test[:,1])
-
-#Y_train = np_utils.to_categorical(Y_train, 2)
-#Y_val = np_utils.to_categorical(Y_val, 2)
-
 ################################################################################################
 def block(n_output, upscale=False):
     # n_output: number of feature maps in the block
